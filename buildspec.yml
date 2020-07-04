@@ -4,8 +4,8 @@ phases:
     runtime-versions:
       nodejs: 12
   build:
-	commands:
-	  - rpn run build
+    commands:
+      - rpn run build
 artifacts:
   files:
     - 'dist**/*'
