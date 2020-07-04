@@ -5,7 +5,7 @@ phases:
       nodejs: 12
   build:
     commands:
-      - rpn run build
+      - npm run build
 artifacts:
   files:
-    - 'dist**/*'
+    - 'dist/**/*'
